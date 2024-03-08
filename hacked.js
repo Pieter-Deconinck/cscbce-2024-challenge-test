@@ -1,4 +1,8 @@
 window.onload = function() {
+
+    alert('XSS Test');
+
+    
     // Initialize Particles
     Particles.init({
         selector: '.background',
